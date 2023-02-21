@@ -9,7 +9,7 @@ const client = require("./config/config");
 const DataRoute = require("./routes/index");
 const { associate } = require("./model/mst_unit_device.model.js");
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 4000;
 (async () => {
   try {
     app.use(cors());
