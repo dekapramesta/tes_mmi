@@ -23,9 +23,6 @@ const port = process.env.PORT || 4000;
     await Quality.sync();
     await MST_UNIT.sync();
     await MST_UNIT_DEVICE.sync();
-    // await t_log.sync();
-    // await MST_UNIT_DEVICE.associate();
-    // await MST_UNIT.associate();
 
     console.log("done");
 
