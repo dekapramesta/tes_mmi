@@ -20,9 +20,9 @@ const port = 5000;
     await dbc.authenticate();
 
     console.log("db connect");
-    // await Quality.sync();
-    // await MST_UNIT.sync();
-    // await MST_UNIT_DEVICE.sync();
+    await Quality.sync();
+    await MST_UNIT.sync();
+    await MST_UNIT_DEVICE.sync();
     // await t_log.sync();
     // await MST_UNIT_DEVICE.associate();
     // await MST_UNIT.associate();

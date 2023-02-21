@@ -17,10 +17,6 @@ const MST_UNIT_DEVICE = db.define(
     },
     unitid: {
       type: DataTypes.STRING,
-      references: {
-        model: MST_UNIT,
-        key: "unitId",
-      },
     },
 
     status: {
